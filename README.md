@@ -1,4 +1,4 @@
-#TANDEMLOOP Screening Test:-
+# TANDEMLOOP Screening Test:-
 
 # Programming language used is JavaScript the Solutions for TANDEMLOOP Screening Test:
 
@@ -33,4 +33,12 @@ With a single integer as the input, generate the following until a = x [series o
     .
     .
     7) input a = x, then output : 1, 3, 5, 7, .......
- 
+
+# Problem-4: 
+Get the total count of number listed in the dictionary which is multiple of [1,2,3,4,5,6,7,8,9]
+  (examples)
+  input: [1,2,8,9,12,46,76,82,15,20,30]
+  Output: 
+    {1: 11, 2: 8, 3: 4, 4: 4, 5: 3, 6: 2, 7: 0, 8: 1, 9: 1}
+
+
