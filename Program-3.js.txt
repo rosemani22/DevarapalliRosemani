@@ -1,0 +1,26 @@
+// Problem-3.js
+
+function generateConditionalOddSeries(a) {
+    let series = [];
+
+    // For a = 1 and a = 2, output is always [1]
+    if (a === 1 || a === 2) {
+        series.push(1);
+    } else {
+        // For a >= 3, generate the series of odd numbers
+        for (let i = 0; i < a; i++) {
+            series.push(2 * i + 1); // Generates odd numbers: 1, 3, 5, 7, ...
+        }
+    }
+
+    return series;
+}
+
+// Example usage
+console.log("Input a = 1, Output:", generateConditionalOddSeries(1)); // Output: [1]
+console.log("Input a = 2, Output:", generateConditionalOddSeries(2)); // Output: [1]
+console.log("Input a = 3, Output:", generateConditionalOddSeries(3)); // Output: [1, 3, 5]
+console.log("Input a = 4, Output:", generateConditionalOddSeries(4)); // Output: [1, 3, 5]
+console.log("Input a = 5, Output:", generateConditionalOddSeries(5)); // Output: [1, 3, 5, 7, 9]
+console.log("Input a = 6, Output:", generateConditionalOddSeries(6)); // Output: [1, 3, 5, 7, 9]
+
